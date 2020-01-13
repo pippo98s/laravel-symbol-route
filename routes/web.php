@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/pag1', 'MyController@showPagOne');
+
+Route::get('/pag2' , 'MyController@showPagTwo');
